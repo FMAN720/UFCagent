@@ -1,0 +1,355 @@
+{
+  "status": "experimental",
+  "modelId": "ufc-history-logistic-v2",
+  "features": [
+    "eloGap",
+    "winRateGap",
+    "recentFormGap",
+    "experienceGap",
+    "layoffGap"
+  ],
+  "split": {
+    "warmup": "2010–2014",
+    "train": {
+      "from": "2015-01-01",
+      "to": "2021-12-31",
+      "n": 1482
+    },
+    "calibration": {
+      "from": "2022-01-01",
+      "to": "2023-12-31",
+      "n": 543
+    },
+    "test": {
+      "from": "2024-01-01",
+      "to": "2025-12-31",
+      "n": 580
+    }
+  },
+  "totalBouts": 7239,
+  "excludedTestBouts": 433,
+  "models": [
+    {
+      "id": "trained",
+      "name": "历史训练模型",
+      "n": 580,
+      "correct": 360,
+      "ties": 0,
+      "accuracy": 0.6206896551724138,
+      "accuracyInterval": [
+        0.5805286048959906,
+        0.6592624617220786
+      ],
+      "brier": 0.23656977183634834,
+      "logLoss": 0.6658715356781417,
+      "calibration": [
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 3,
+          "predicted": 0.26370429073013196,
+          "observed": 0.3333333333333333
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 90,
+          "predicted": 0.36646263384875805,
+          "observed": 0.3111111111111111
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 276,
+          "predicted": 0.4520918031772129,
+          "observed": 0.34782608695652173
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 168,
+          "predicted": 0.544518274858451,
+          "observed": 0.5
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 40,
+          "predicted": 0.6336101275504433,
+          "observed": 0.725
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 3,
+          "predicted": 0.7102399935841723,
+          "observed": 1
+        }
+      ],
+      "ece": 0.07926173611130707
+    },
+    {
+      "id": "elo",
+      "name": "Elo 对手强度基线",
+      "n": 580,
+      "correct": 326,
+      "ties": 0,
+      "accuracy": 0.5620689655172414,
+      "accuracyInterval": [
+        0.5214140172374198,
+        0.6019071027375873
+      ],
+      "brier": 0.24426582831355703,
+      "logLoss": 0.6815132521590953,
+      "calibration": [
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 15,
+          "predicted": 0.3745133787351902,
+          "observed": 0.13333333333333333
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 242,
+          "predicted": 0.4649810608095286,
+          "observed": 0.34710743801652894
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 286,
+          "predicted": 0.5372642861906877,
+          "observed": 0.46153846153846156
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 36,
+          "predicted": 0.6181456119956998,
+          "observed": 0.6111111111111112
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 1,
+          "predicted": 0.7008514195740424,
+          "observed": 1
+        }
+      ],
+      "ece": 0.0937122307926579
+    },
+    {
+      "id": "record",
+      "name": "历史 UFC 胜率基线",
+      "n": 580,
+      "correct": 363.5,
+      "ties": 29,
+      "accuracy": 0.6267241379310344,
+      "accuracyInterval": [
+        0.5866475290194532,
+        0.6651330909295191
+      ],
+      "brier": 0.23173015034315173,
+      "logLoss": 0.6554320474650274,
+      "calibration": [
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 2,
+          "predicted": 0.16342535987349532,
+          "observed": 0
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 17,
+          "predicted": 0.2749916707565519,
+          "observed": 0.17647058823529413
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 115,
+          "predicted": 0.35794498270369135,
+          "observed": 0.3217391304347826
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 198,
+          "predicted": 0.447406022782404,
+          "observed": 0.3333333333333333
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 185,
+          "predicted": 0.5401952075369651,
+          "observed": 0.5081081081081081
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 51,
+          "predicted": 0.6425046224321671,
+          "observed": 0.5882352941176471
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 12,
+          "predicted": 0.7208431750793736,
+          "observed": 0.9166666666666666
+        }
+      ],
+      "ece": 0.0686301822101301
+    },
+    {
+      "id": "coin",
+      "name": "双方各半基线",
+      "n": 580,
+      "correct": 290,
+      "ties": 580,
+      "accuracy": 0.5,
+      "accuracyInterval": [
+        0.45944181072828877,
+        0.5405581892717113
+      ],
+      "brier": 0.25,
+      "logLoss": 0.6931471805599468,
+      "calibration": [
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 580,
+          "predicted": 0.5,
+          "observed": 0.41551724137931034
+        }
+      ],
+      "ece": 0.08448275862068966
+    }
+  ],
+  "beatsEloOnBrier": true,
+  "byYear": [
+    {
+      "year": "2024",
+      "n": 302,
+      "correct": 187,
+      "ties": 0,
+      "accuracy": 0.6192052980132451,
+      "accuracyInterval": [
+        0.5632658878743169,
+        0.6721500921624082
+      ],
+      "brier": 0.23720782651040134,
+      "logLoss": 0.6672182591484455,
+      "calibration": [
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 48,
+          "predicted": 0.3683783828311693,
+          "observed": 0.3333333333333333
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 136,
+          "predicted": 0.4527411754427848,
+          "observed": 0.33088235294117646
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 91,
+          "predicted": 0.5467518240128373,
+          "observed": 0.4945054945054945
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 24,
+          "predicted": 0.6416093317565835,
+          "observed": 0.6666666666666666
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 3,
+          "predicted": 0.7102399935841723,
+          "observed": 1
+        }
+      ],
+      "ece": 0.08105971615355143
+    },
+    {
+      "year": "2025",
+      "n": 278,
+      "correct": 173,
+      "ties": 0,
+      "accuracy": 0.6223021582733813,
+      "accuracyInterval": [
+        0.5640092907112508,
+        0.6772609830879328
+      ],
+      "brier": 0.23587663330554268,
+      "logLoss": 0.6644085483111206,
+      "calibration": [
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 3,
+          "predicted": 0.26370429073013196,
+          "observed": 0.3333333333333333
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 42,
+          "predicted": 0.3642732064402878,
+          "observed": 0.2857142857142857
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 140,
+          "predicted": 0.45146098440494326,
+          "observed": 0.36428571428571427
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 77,
+          "predicted": 0.5418786258578121,
+          "observed": 0.5064935064935064
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 16,
+          "predicted": 0.6216113212412329,
+          "observed": 0.8125
+        }
+      ],
+      "ece": 0.07730853477045166
+    }
+  ],
+  "scope": "Only decisive UFC bouts with at least 3 prior observed UFC results per fighter. All same-day outcomes are applied after features. No current career records, current rankings or career technical averages are used.",
+  "limitations": [
+    "Retrospective ESPN results can include later corrections; this is not a prospective live trial.",
+    "Coverage starts in 2010 and excludes draws, no contests, missing results and events not named UFC.",
+    "No injuries, weight-cut, age, reach, detailed striking or grappling features. No betting-odds benchmark.",
+    "Single chronological test window; repeated fighters create dependence. The Wilson interval is descriptive, not a guarantee."
+  ],
+  "generatedAt": "2026-09-12T13:52:28.504Z",
+  "dataset": {
+    "sha256": "4ca79736f7a6c5ab2216aae845aec6078eff8178f0c5578cf6412ceaaa11a076",
+    "fetchedAt": "2026-09-12T13:50:37.110Z",
+    "cutoffExclusive": "2026-09-12",
+    "first": "2010-01-03",
+    "last": "2026-09-05",
+    "source": "https://www.espn.com/mma/schedule/_/league/ufc"
+  }
+}

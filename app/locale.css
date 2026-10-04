@@ -1,0 +1,132 @@
+.language-switch {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  border: 1px solid #43484e;
+  background: #191c1f;
+  border-radius: 6px;
+  padding: 3px;
+  flex-shrink: 0;
+}
+.language-switch button {
+  border: 0;
+  background: transparent;
+  color: #aab4bc;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 3px;
+  min-height: 35px;
+}
+.language-switch button[aria-pressed='true'] {
+  background: #693c36;
+  color: #fff0ed;
+}
+.language-switch button:hover {
+  color: white;
+}
+.translation-label {
+  color: #d4ad7f !important;
+}
+.translation-notice a {
+  color: #d4ad7f;
+  text-decoration: underline;
+}
+.news-item h3 {
+  overflow-wrap: anywhere;
+}
+html[lang='en'] .sidebar {
+  width: 264px;
+}
+html[lang='en'] .workspace {
+  margin-left: 264px;
+  width: calc(100% - 264px);
+}
+html[lang='en'] nav button {
+  gap: 9px;
+}
+html[lang='en'] .brand small {
+  letter-spacing: 1.2px;
+}
+html[lang='en'] .feature h3 {
+  line-height: 1.6;
+  min-height: 26px;
+}
+html[lang='en'] .feature p {
+  padding-right: 4px;
+}
+html[lang='en'] h1 {
+  letter-spacing: -0.5px;
+}
+html[lang='en'] .bout > span {
+  width: 115px;
+}
+html[lang='en'] .champion small {
+  letter-spacing: 0.3px;
+}
+.question {
+  white-space: pre-wrap;
+}
+@media (max-width: 700px) {
+  header {
+    height: auto;
+    min-height: 65px;
+    gap: 10px;
+    padding: 10px 16px;
+  }
+  header > span {
+    font-size: 12px;
+  }
+  header b {
+    margin: 0 7px;
+  }
+  .language-switch button {
+    font-size: 13px;
+    padding: 7px 9px;
+  }
+  html[lang='en'] .sidebar {
+    width: 100%;
+  }
+  html[lang='en'] .workspace {
+    width: 100%;
+    margin: 0;
+  }
+  html[lang='en'] nav button {
+    white-space: nowrap;
+  }
+  html[lang='en'] h1 {
+    font-size: 27px;
+  }
+  html[lang='en'] .feature-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  html[lang='en'] .feature h3 {
+    font-size: 15px;
+    min-height: 48px;
+  }
+  html[lang='en'] .record {
+    white-space: normal;
+  }
+  html[lang='en'] .bout > span {
+    width: 100%;
+  }
+  .toolbar > .hint {
+    margin: 0;
+  }
+  .page-heading {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 380px) {
+  header > span {
+    max-width: 120px;
+  }
+  html[lang='en'] .feature-grid {
+    grid-template-columns: 1fr;
+  }
+  .predict-actions .text-button {
+    line-height: 1.8;
+  }
+  .language-switch button {
+    padding: 6px 8px;
+  }
+}

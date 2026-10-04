@@ -1,0 +1,12 @@
+.assistant-status {margin-top:1rem;padding:1rem;border:1px solid #343a44;border-radius:10px;font-size:.875rem;color:#b9c1cf;background:#11171e;line-height:1.7}
+.assistant-status-line {display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;color:#e8edf5}
+.assistant-status p {margin:.5rem 0}
+.assistant-status details,.evidence,.backtest-panel details {margin-top:.9rem;font-size:.875rem;line-height:1.8}
+details summary {cursor:pointer;color:#b5d4ee;min-height:2rem}
+.assistant-notice {border-left:3px solid #d7ac64;padding:.6rem .9rem;background:#c99e4c0c;color:#dfcba9;font-size:.9rem;line-height:1.8}
+.answer-mode {font-size:.875rem;color:#9bafc7;margin:.4rem 0}
+.answer-text {white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.85}
+.evidence {border-bottom:1px solid #2b323a;padding-bottom:.8rem}
+.evidence ol {padding-left:1.3rem}.evidence ul {padding-left:1.3rem;color:#a6b4c5}.evidence li {margin:.35rem 0}.evidence .source {display:inline-flex;margin:.25rem .5rem}
+.backtest-panel {margin-top:1.5rem}.backtest-panel h2 {font-size:1.125rem}.backtest-panel p {line-height:1.8;margin:.8rem 0}.backtest-panel table {font-size:.875rem}.backtest-panel .table-wrap {margin:1rem 0}.backtest-panel a {color:#a9cee9;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:600px){.backtest-panel .prediction-title{align-items:flex-start;gap:.7rem;flex-direction:column}.assistant-status {padding:.8rem}.backtest-panel table th,.backtest-panel table td{white-space:nowrap}}

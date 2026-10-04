@@ -1,0 +1,4 @@
+import {mkdir,writeFile} from 'node:fs/promises';
+await mkdir('data/raw',{recursive:true});
+const urls={rankings:'https://www.ufc.com.br/rankings',news:'https://www.ufc.com.br/news',events:'https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard',search:'https://site.web.api.espn.com/apis/fittwo/v3/search?region=us&lang=en&query=zhang%20weili&limit=10&type=player',athlete:'https://site.web.api.espn.com/apis/common/v3/sports/mma/ufc/athletes/4350762',stats:'https://www.ufcstats.com/statistics/fighters?char=z&page=all',brathlete:'https://www.ufc.com.br/athlete/zhang-weili',enathlete:'https://www.ufc.com/athlete/zhang-weili'};
+await Promise.all(Object.entries(urls).map(async([k,u])=>{try{const r=await fetch(u,{signal:AbortSignal.timeout(18000)});const t=await r.text();if(r.ok)await writeFile('data/raw/'+k+(t.startsWith('{')?'.json':'.html'),t);console.log(k,r.status,t.length,t.slice(0,65));}catch(e){console.log(k,e.message)}}));

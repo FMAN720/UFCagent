@@ -1,0 +1,7 @@
+import fs from 'node:fs/promises';
+import {parseFighter,parseTechnical,normalize} from '../lib/ufc/parsers.mjs';
+const [id,slug,expectedName]=process.argv.slice(2);if(!/^\d+$/.test(id||'')||!slug||!expectedName)throw Error('Usage: node scripts/add-fighter-snapshot.mjs ID SLUG "EXPECTED NAME"');
+const snapshot=JSON.parse(await fs.readFile('lib/ufc/snapshot.json','utf8'));const source='https://site.web.api.espn.com/apis/common/v3/sports/mma/ufc/athletes/'+id;const r=await fetch(source,{signal:AbortSignal.timeout(15000)});if(!r.ok)throw Error(r.status);const data=parseFighter(await r.json());if(normalize(data.name)!==normalize(expectedName))throw Error('Identity mismatch');const value={data,source,fetchedAt:new Date().toISOString(),freshness:'snapshot',warning:'历史抓取快照'};snapshot['fighter:'+id]=value;
+snapshot['search:'+normalize(data.name)]={...value,data:[{id,name:data.name,url:data.url}]};snapshot.directory.data=snapshot.directory.data.filter(f=>f.id!==id);snapshot.directory.data.push({id,name:data.name,url:data.url});
+try{const source='https://www.ufc.com.br/athlete/'+slug;const r=await fetch(source,{signal:AbortSignal.timeout(12000)});if(!r.ok)throw Error(r.status);snapshot['technical:'+id]={...value,source,data:parseTechnical(await r.text(),data.name),fetchedAt:new Date().toISOString()};}catch{console.log('Technical data unavailable; profile is still saved.');}
+await fs.writeFile('lib/ufc/snapshot.json',JSON.stringify(snapshot,null,2));console.log('Saved verified fighter',data.name);

@@ -1,0 +1,1058 @@
+{
+  "athlete": {
+    "id": "4350762",
+    "displayName": "Zhang Weili",
+    "nickname": "Magnum",
+    "statsSummary": {
+      "displayName": "Stats",
+      "statistics": [
+        {
+          "name": "wins-losses-draws",
+          "type": "wins-losses-draws",
+          "displayName": "Wins-Losses-Draws",
+          "shortDisplayName": "W-L-Draws",
+          "description": "Wins-Losses-Draws",
+          "abbreviation": "W-L-D",
+          "value": 26,
+          "displayValue": "26-4-0"
+        },
+        {
+          "name": "tkos-tkoLosses",
+          "type": "tkos-tkolosses",
+          "displayName": "Technical Knockout-Technical Knockout Losses",
+          "shortDisplayName": "TKO-TKOL",
+          "description": "Technical Knockout-Technical Knockout Losses",
+          "abbreviation": "(T)KO",
+          "value": 11,
+          "displayValue": "11-1"
+        },
+        {
+          "name": "submissions-submissionLosses",
+          "type": "submissions-submissionlosses",
+          "displayName": "Submissions-Submission Losses",
+          "shortDisplayName": "SUB-SUBL",
+          "description": "Submissions-Submission Losses",
+          "abbreviation": "SUB",
+          "value": 8,
+          "displayValue": "8-0"
+        }
+      ]
+    },
+    "age": 37,
+    "gender": "FEMALE",
+    "weightClass": {
+      "id": "1007",
+      "text": "Women's Flyweight",
+      "shortName": "W Flyweight",
+      "slug": "womens-flyweight"
+    },
+    "displayWeight": "125 lbs",
+    "displayHeight": "5' 4\"",
+    "displayReach": "63\"",
+    "stance": {
+      "id": "80",
+      "text": "Switch"
+    },
+    "citizenship": "China",
+    "active": true,
+    "links": [
+      {
+        "language": "en",
+        "rel": [
+          "playercard",
+          "desktop",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/mma/fighter/_/id/4350762/zhang-weili",
+        "text": "Player Card",
+        "shortText": "Player Card",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "stats",
+          "desktop",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/mma/fighter/stats/_/id/4350762/zhang-weili",
+        "text": "Stats",
+        "shortText": "Stats",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "news",
+          "desktop",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/mma/fighter/news/_/id/4350762/zhang-weili",
+        "text": "News",
+        "shortText": "News",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "bio",
+          "desktop",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/mma/fighter/bio/_/id/4350762/zhang-weili",
+        "text": "Bio",
+        "shortText": "Bio",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "overview",
+          "desktop",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/mma/fighter/_/id/4350762/zhang-weili",
+        "text": "Overview",
+        "shortText": "Overview",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "history",
+          "desktop",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/mma/fighter/history/_/id/4350762/zhang-weili",
+        "text": "Fight History",
+        "shortText": "Fight History",
+        "isExternal": false,
+        "isPremium": false
+      }
+    ]
+  },
+  "events": [
+    "s:3301~l:3321~e:600055729~c:401817809",
+    "s:3301~l:3321~e:600050481~c:401737156",
+    "s:3301~l:3321~e:600041053~c:401629521",
+    "s:3301~l:3321~e:600034053~c:401548527",
+    "s:3301~l:3321~e:600023427~c:401467666",
+    "s:3301~l:3321~e:600018247~c:401430125",
+    "s:3301~l:3321~e:600010313~c:401362003",
+    "s:3301~l:3321~e:600004360~c:401310786",
+    "s:3301~l:3321~e:401189215~c:275979",
+    "s:3301~l:3321~e:401131738~c:266327",
+    "s:3301~l:3321~e:401098399~c:258134",
+    "s:3301~l:3321~e:401053587~c:255635",
+    "s:3301~l:3321~e:401028930~c:250032",
+    "s:3301~l:3359~e:401040052~c:250150",
+    "s:3301~l:3359~e:401030668~c:250149",
+    "s:3301~l:3359~e:401014048~c:250148",
+    "s:3301~l:3359~e:400999630~c:250147",
+    "s:3301~l:3359~e:401040053~c:250146",
+    "s:3301~l:3359~e:401040054~c:250145",
+    "s:3301~l:3359~e:401040055~c:250144",
+    "s:3301~l:3359~e:400945243~c:250143",
+    "s:3301~l:3359~e:401040056~c:250142",
+    "s:3301~l:3359~e:401040057~c:250141",
+    "s:3301~l:3359~e:401040058~c:250140",
+    "s:3301~l:3359~e:400925044~c:250139",
+    "s:3301~l:3359~e:401040059~c:250138",
+    "s:3301~l:3359~e:401040060~c:250137",
+    "s:3301~l:3359~e:401000655~c:401653990",
+    "s:3301~l:3359~e:401000656~c:401653989",
+    "s:3301~l:3359~e:401040061~c:250134"
+  ],
+  "eventsMap": {
+    "s:3301~l:3321~e:600055729~c:401817809": {
+      "uid": "s:3301~l:3321~e:600055729~c:401817809",
+      "name": "UFC 322: Della Maddalena vs. Makhachev",
+      "gameDate": "2025-11-15T23:00:00.000+00:00",
+      "gameResult": "L",
+      "opponent": {
+        "id": "2554705",
+        "uid": "s:3301~a:2554705",
+        "displayName": "Valentina Shevchenko",
+        "fullName": "Valentina Shevchenko",
+        "lastName": "Shevchenko",
+        "shortName": "V. Shevchenko"
+      },
+      "status": {
+        "displayClock": "5:00",
+        "period": 5,
+        "result": {
+          "name": "decision---unanimous",
+          "displayName": "Decision - Unanimous",
+          "shortDisplayName": "U Dec"
+        }
+      },
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mma/fightcenter/_/id/600055729/league/ufc",
+          "text": "FightCenter",
+          "shortText": "FightCenter",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ]
+    },
+    "s:3301~l:3321~e:600050481~c:401737156": {
+      "uid": "s:3301~l:3321~e:600050481~c:401737156",
+      "name": "UFC 312: Du Plessis vs. Strickland 2",
+      "gameDate": "2025-02-08T23:30:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "4020435",
+        "uid": "s:3301~a:4020435",
+        "displayName": "Tatiana Suarez",
+        "fullName": "Tatiana Suarez",
+        "lastName": "Suarez",
+        "shortName": "T. Suarez"
+      },
+      "status": {
+        "displayClock": "5:00",
+        "period": 5,
+        "result": {
+          "name": "decision---unanimous",
+          "displayName": "Decision - Unanimous",
+          "shortDisplayName": "U Dec"
+        }
+      },
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mma/fightcenter/_/id/600050481/league/ufc",
+          "text": "FightCenter",
+          "shortText": "FightCenter",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ]
+    },
+    "s:3301~l:3321~e:600041053~c:401629521": {
+      "uid": "s:3301~l:3321~e:600041053~c:401629521",
+      "name": "UFC 300: Pereira vs. Hill",
+      "gameDate": "2024-04-13T22:00:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "4275487",
+        "uid": "s:3301~a:4275487",
+        "displayName": "Yan Xiaonan",
+        "fullName": "Yan Xiaonan",
+        "lastName": "Xiaonan",
+        "shortName": "Y. Xiaonan"
+      },
+      "status": {
+        "displayClock": "5:00",
+        "period": 5,
+        "result": {
+          "name": "decision---unanimous",
+          "displayName": "Decision - Unanimous",
+          "shortDisplayName": "U Dec"
+        }
+      },
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mma/fightcenter/_/id/600041053/league/ufc",
+          "text": "FightCenter",
+          "shortText": "FightCenter",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ]
+    },
+    "s:3301~l:3321~e:600034053~c:401548527": {
+      "uid": "s:3301~l:3321~e:600034053~c:401548527",
+      "name": "UFC 292: Sterling vs. O'Malley",
+      "gameDate": "2023-08-19T22:30:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "4233196",
+        "uid": "s:3301~a:4233196",
+        "displayName": "Amanda Lemos",
+        "fullName": "Amanda Lemos",
+        "lastName": "Lemos",
+        "shortName": "A. Lemos"
+      },
+      "status": {
+        "displayClock": "5:00",
+        "period": 5,
+        "result": {
+          "name": "decision---unanimous",
+          "displayName": "Decision - Unanimous",
+          "shortDisplayName": "U Dec"
+        }
+      },
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mma/fightcenter/_/id/600034053/league/ufc",
+          "text": "FightCenter",
+          "shortText": "FightCenter",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ]
+    },
+    "s:3301~l:3321~e:600023427~c:401467666": {
+      "uid": "s:3301~l:3321~e:600023427~c:401467666",
+      "name": "UFC 281: Adesanya vs. Pereira",
+      "gameDate": "2022-11-12T23:00:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "2559934",
+        "uid": "s:3301~a:2559934",
+        "displayName": "Carla Esparza",
+        "fullName": "Carla Esparza",
+        "lastName": "Esparza",
+        "shortName": "C. Esparza"
+      },
+      "status": {
+        "displayClock": "1:05",
+        "period": 2,
+        "result": {
+          "name": "submission",
+          "displayName": "Submission",
+          "shortDisplayName": "Sub"
+        }
+      },
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mma/fightcenter/_/id/600023427/league/ufc",
+          "text": "FightCenter",
+          "shortText": "FightCenter",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ]
+    },
+    "s:3301~l:3321~e:600018247~c:401430125": {
+      "uid": "s:3301~l:3321~e:600018247~c:401430125",
+      "name": "UFC 275: Teixeira vs. Procházka",
+      "gameDate": "2022-06-11T23:00:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "3106617",
+        "uid": "s:3301~a:3106617",
+        "displayName": "Joanna Jedrzejczyk",
+        "fullName": "Joanna Jedrzejczyk",
+        "lastName": "Jedrzejczyk",
+        "shortName": "J. Jedrzejczyk"
+      },
+      "status": {
+        "displayClock": "2:28",
+        "period": 2,
+        "result": {
+          "name": "kotko",
+          "displayName": "KO/TKO",
+          "shortDisplayName": "KO/TKO"
+        }
+      },
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mma/fightcenter/_/id/600018247/league/ufc",
+          "text": "FightCenter",
+          "shortText": "FightCenter",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ]
+    },
+    "s:3301~l:3321~e:600010313~c:401362003": {
+      "uid": "s:3301~l:3321~e:600010313~c:401362003",
+      "name": "UFC 268: Usman vs. Covington 2",
+      "gameDate": "2021-11-06T22:00:00.000+00:00",
+      "gameResult": "L",
+      "opponent": {
+        "id": "3032973",
+        "uid": "s:3301~a:3032973",
+        "displayName": "Rose Namajunas",
+        "fullName": "Rose Namajunas",
+        "lastName": "Namajunas",
+        "shortName": "R. Namajunas"
+      },
+      "status": {
+        "displayClock": "5:00",
+        "period": 5,
+        "result": {
+          "name": "decision---split",
+          "displayName": "Decision - Split",
+          "shortDisplayName": "S Dec"
+        }
+      },
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mma/fightcenter/_/id/600010313/league/ufc",
+          "text": "FightCenter",
+          "shortText": "FightCenter",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ]
+    },
+    "s:3301~l:3321~e:600004360~c:401310786": {
+      "uid": "s:3301~l:3321~e:600004360~c:401310786",
+      "name": "UFC 261: Usman vs. Masvidal 2",
+      "gameDate": "2021-04-24T22:00:00.000+00:00",
+      "gameResult": "L",
+      "opponent": {
+        "id": "3032973",
+        "uid": "s:3301~a:3032973",
+        "displayName": "Rose Namajunas",
+        "fullName": "Rose Namajunas",
+        "lastName": "Namajunas",
+        "shortName": "R. Namajunas"
+      },
+      "status": {
+        "displayClock": "1:18",
+        "period": 1,
+        "result": {
+          "name": "kotko",
+          "displayName": "KO/TKO",
+          "shortDisplayName": "KO/TKO"
+        }
+      },
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mma/fightcenter/_/id/600004360/league/ufc",
+          "text": "FightCenter",
+          "shortText": "FightCenter",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ]
+    },
+    "s:3301~l:3321~e:401189215~c:275979": {
+      "uid": "s:3301~l:3321~e:401189215~c:275979",
+      "name": "UFC 248: Adesanya vs. Romero",
+      "gameDate": "2020-03-08T00:00:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "3106617",
+        "uid": "s:3301~a:3106617",
+        "displayName": "Joanna Jedrzejczyk",
+        "fullName": "Joanna Jedrzejczyk",
+        "lastName": "Jedrzejczyk",
+        "shortName": "J. Jedrzejczyk"
+      },
+      "status": {
+        "displayClock": "5:00",
+        "period": 5,
+        "result": {
+          "name": "decision---split",
+          "displayName": "Decision - Split",
+          "shortDisplayName": "S Dec"
+        }
+      },
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mma/fightcenter/_/id/401189215/league/ufc",
+          "text": "FightCenter",
+          "shortText": "FightCenter",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ]
+    },
+    "s:3301~l:3321~e:401131738~c:266327": {
+      "uid": "s:3301~l:3321~e:401131738~c:266327",
+      "name": "UFC Fight Night: Andrade vs. Zhang",
+      "gameDate": "2019-08-31T07:00:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "3024395",
+        "uid": "s:3301~a:3024395",
+        "displayName": "Jessica Andrade",
+        "fullName": "Jessica Andrade",
+        "lastName": "Andrade",
+        "shortName": "J. Andrade"
+      },
+      "status": {
+        "displayClock": "0:42",
+        "period": 1,
+        "result": {
+          "name": "kotko",
+          "displayName": "KO/TKO",
+          "shortDisplayName": "KO/TKO"
+        }
+      },
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mma/fightcenter/_/id/401131738/league/ufc",
+          "text": "FightCenter",
+          "shortText": "FightCenter",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ]
+    },
+    "s:3301~l:3321~e:401098399~c:258134": {
+      "uid": "s:3301~l:3321~e:401098399~c:258134",
+      "name": "UFC 235: Jones vs. Smith",
+      "gameDate": "2019-03-02T23:30:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "3032972",
+        "uid": "s:3301~a:3032972",
+        "displayName": "Tecia Pennington",
+        "fullName": "Tecia Pennington",
+        "lastName": "Pennington",
+        "shortName": "T. Pennington"
+      },
+      "status": {
+        "displayClock": "5:00",
+        "period": 3,
+        "result": {
+          "name": "decision---unanimous",
+          "displayName": "Decision - Unanimous",
+          "shortDisplayName": "U Dec"
+        }
+      },
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mma/fightcenter/_/id/401098399/league/ufc",
+          "text": "FightCenter",
+          "shortText": "FightCenter",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ]
+    },
+    "s:3301~l:3321~e:401053587~c:255635": {
+      "uid": "s:3301~l:3321~e:401053587~c:255635",
+      "name": "UFC Fight Night: Blaydes vs. Ngannou 2",
+      "gameDate": "2018-11-24T11:30:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "2559933",
+        "uid": "s:3301~a:2559933",
+        "displayName": "Jessica Aguilar",
+        "fullName": "Jessica Aguilar",
+        "lastName": "Aguilar",
+        "shortName": "J. Aguilar"
+      },
+      "status": {
+        "displayClock": "3:41",
+        "period": 1,
+        "result": {
+          "name": "submission",
+          "displayName": "Submission",
+          "shortDisplayName": "Sub"
+        }
+      },
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mma/fightcenter/_/id/401053587/league/ufc",
+          "text": "FightCenter",
+          "shortText": "FightCenter",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ]
+    },
+    "s:3301~l:3321~e:401028930~c:250032": {
+      "uid": "s:3301~l:3321~e:401028930~c:250032",
+      "name": "UFC 227: Dillashaw vs. Garbrandt 2",
+      "gameDate": "2018-08-04T18:30:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "4037323",
+        "uid": "s:3301~a:4037323",
+        "displayName": "Danielle Taylor",
+        "fullName": "Danielle Taylor",
+        "lastName": "Taylor",
+        "shortName": "D. Taylor"
+      },
+      "status": {
+        "displayClock": "5:00",
+        "period": 3,
+        "result": {
+          "name": "decision---unanimous",
+          "displayName": "Decision - Unanimous",
+          "shortDisplayName": "U Dec"
+        }
+      },
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mma/fightcenter/_/id/401028930/league/ufc",
+          "text": "FightCenter",
+          "shortText": "FightCenter",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ]
+    },
+    "s:3301~l:3359~e:401040052~c:250150": {
+      "uid": "s:3301~l:3359~e:401040052~c:250150",
+      "name": "KLF: Kunlun Fight 15",
+      "gameDate": "2017-10-03T16:00:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "4288932",
+        "uid": "s:3301~a:4288932",
+        "displayName": "Bianca Sattelmayer",
+        "fullName": "Bianca Sattelmayer",
+        "lastName": "Sattelmayer",
+        "shortName": "B. Sattelmayer"
+      },
+      "status": {
+        "displayClock": "3:29",
+        "period": 1,
+        "result": {
+          "name": "submission-armbar",
+          "displayName": "Submission (Armbar)",
+          "shortDisplayName": "Submission (Armbar)"
+        }
+      }
+    },
+    "s:3301~l:3359~e:401030668~c:250149": {
+      "uid": "s:3301~l:3359~e:401030668~c:250149",
+      "name": "KLF: Kunlun Fight 14",
+      "gameDate": "2017-08-28T16:00:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "4350860",
+        "uid": "s:3301~a:4350860",
+        "displayName": "Marilia Santos",
+        "fullName": "Marilia Santos",
+        "lastName": "Santos",
+        "shortName": "M. Santos"
+      },
+      "status": {
+        "displayClock": "3:20",
+        "period": 2,
+        "result": {
+          "name": "tko",
+          "displayName": "TKO",
+          "shortDisplayName": "TKO"
+        }
+      }
+    },
+    "s:3301~l:3359~e:401014048~c:250148": {
+      "uid": "s:3301~l:3359~e:401014048~c:250148",
+      "name": "Top FC 15",
+      "gameDate": "2017-07-22T04:00:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "4350861",
+        "uid": "s:3301~a:4350861",
+        "displayName": "YeDam Seo",
+        "fullName": "YeDam Seo",
+        "lastName": "Seo",
+        "shortName": "Y. Seo"
+      },
+      "status": {
+        "displayClock": "1:35",
+        "period": 2,
+        "result": {
+          "name": "kotko",
+          "displayName": "KO/TKO",
+          "shortDisplayName": "KO/TKO"
+        }
+      }
+    },
+    "s:3301~l:3359~e:400999630~c:250147": {
+      "uid": "s:3301~l:3359~e:400999630~c:250147",
+      "name": "KLF: Kunlun Fight 12",
+      "gameDate": "2017-06-01T16:00:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "3155852",
+        "uid": "s:3301~a:3155852",
+        "displayName": "Aline Sattelmayer",
+        "fullName": "Aline Sattelmayer",
+        "lastName": "Sattelmayer",
+        "shortName": "A. Sattelmayer"
+      },
+      "status": {
+        "displayClock": "5:00",
+        "period": 3,
+        "result": {
+          "name": "decision---unanimous",
+          "displayName": "Decision - Unanimous",
+          "shortDisplayName": "U Dec"
+        }
+      }
+    },
+    "s:3301~l:3359~e:401040053~c:250146": {
+      "uid": "s:3301~l:3359~e:401040053~c:250146",
+      "name": "KLF: Kunlun Fight 11",
+      "gameDate": "2017-05-04T16:00:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "4330261",
+        "uid": "s:3301~a:4330261",
+        "displayName": "Simone Aparecida da Silva Duarte",
+        "fullName": "Simone Aparecida da Silva Duarte",
+        "lastName": "Aparecida da Silva Duarte",
+        "shortName": "S. Aparecida da Silva Duarte"
+      },
+      "status": {
+        "displayClock": "2:29",
+        "period": 1,
+        "result": {
+          "name": "tko",
+          "displayName": "TKO",
+          "shortDisplayName": "TKO"
+        }
+      }
+    },
+    "s:3301~l:3359~e:401040054~c:250145": {
+      "uid": "s:3301~l:3359~e:401040054~c:250145",
+      "name": "KLF: Kunlun Fight 9",
+      "gameDate": "2017-02-25T17:00:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "4350864",
+        "uid": "s:3301~a:4350864",
+        "displayName": "Nayara Hemily Cascardo",
+        "fullName": "Nayara Hemily Cascardo",
+        "lastName": "Hemily Cascardo",
+        "shortName": "N. Hemily Cascardo"
+      },
+      "status": {
+        "displayClock": "0:41",
+        "period": 1,
+        "result": {
+          "name": "submission-guillotine",
+          "displayName": "Submission (Guillotine)",
+          "shortDisplayName": "Submission (Guillotine)"
+        }
+      }
+    },
+    "s:3301~l:3359~e:401040055~c:250144": {
+      "uid": "s:3301~l:3359~e:401040055~c:250144",
+      "name": "KLF: Kunlun Fight 8",
+      "gameDate": "2017-01-02T17:00:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "4350865",
+        "uid": "s:3301~a:4350865",
+        "displayName": "Veronica Lourdes Grenno",
+        "fullName": "Veronica Lourdes Grenno",
+        "lastName": "Lourdes Grenno",
+        "shortName": "V. Lourdes Grenno"
+      },
+      "status": {
+        "displayClock": "1:50",
+        "period": 1,
+        "result": {
+          "name": "tko",
+          "displayName": "TKO",
+          "shortDisplayName": "TKO"
+        }
+      }
+    },
+    "s:3301~l:3359~e:400945243~c:250143": {
+      "uid": "s:3301~l:3359~e:400945243~c:250143",
+      "name": "Kunlun Fight: Kunlun Fight MMA 7",
+      "gameDate": "2016-12-15T17:00:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "2612589",
+        "uid": "s:3301~a:2612589",
+        "displayName": "Karla Benitez",
+        "fullName": "Karla Benitez",
+        "lastName": "Benitez",
+        "shortName": "K. Benitez"
+      },
+      "status": {
+        "displayClock": "2:15",
+        "period": 1,
+        "result": {
+          "name": "ko",
+          "displayName": "KO",
+          "shortDisplayName": "KO"
+        }
+      }
+    },
+    "s:3301~l:3359~e:401040056~c:250142": {
+      "uid": "s:3301~l:3359~e:401040056~c:250142",
+      "name": "Kunlun Fight: Kunlun Fight 53",
+      "gameDate": "2016-09-24T16:00:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "4350866",
+        "uid": "s:3301~a:4350866",
+        "displayName": "Maira Mazar",
+        "fullName": "Maira Mazar",
+        "lastName": "Mazar",
+        "shortName": "M. Mazar"
+      },
+      "status": {
+        "displayClock": "4:11",
+        "period": 1,
+        "result": {
+          "name": "submission-rear-naked-choke",
+          "displayName": "Submission (Rear Naked Choke)",
+          "shortDisplayName": "Submission (RNC)"
+        }
+      }
+    },
+    "s:3301~l:3359~e:401040057~c:250141": {
+      "uid": "s:3301~l:3359~e:401040057~c:250141",
+      "name": "Rebels/KF: Rebels 45/Kunlun Fight 49",
+      "gameDate": "2016-08-07T16:00:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "3028000",
+        "uid": "s:3301~a:3028000",
+        "displayName": "Emi Fujino",
+        "fullName": "Emi Fujino",
+        "lastName": "Fujino",
+        "shortName": "E. Fujino"
+      },
+      "status": {
+        "displayClock": "2:51",
+        "period": 2,
+        "result": {
+          "name": "tko-doctor-stoppage",
+          "displayName": "TKO (Doctor Stoppage)",
+          "shortDisplayName": "TKO (Doctor Stoppage)"
+        }
+      }
+    },
+    "s:3301~l:3359~e:401040058~c:250140": {
+      "uid": "s:3301~l:3359~e:401040058~c:250140",
+      "name": "Kunlun Fight: Kunlun Fight 47",
+      "gameDate": "2016-07-10T16:00:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "3107734",
+        "uid": "s:3301~a:3107734",
+        "displayName": "Liliya Kazak",
+        "fullName": "Liliya Kazak",
+        "lastName": "Kazak",
+        "shortName": "L. Kazak"
+      },
+      "status": {
+        "displayClock": "4:13",
+        "period": 2,
+        "result": {
+          "name": "ko-head-kick",
+          "displayName": "KO (Head Kick)",
+          "shortDisplayName": "KO (Head Kick)"
+        }
+      }
+    },
+    "s:3301~l:3359~e:400925044~c:250139": {
+      "uid": "s:3301~l:3359~e:400925044~c:250139",
+      "name": "Top FC 11: Top FC vs. Kunlun Fight",
+      "gameDate": "2016-05-22T16:00:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "3977988",
+        "uid": "s:3301~a:3977988",
+        "displayName": "Alice Ardelean",
+        "fullName": "Alice Ardelean",
+        "lastName": "Ardelean",
+        "shortName": "A. Ardelean"
+      },
+      "status": {
+        "displayClock": "4:41",
+        "period": 2,
+        "result": {
+          "name": "submission-rear-naked-choke",
+          "displayName": "Submission (Rear Naked Choke)",
+          "shortDisplayName": "Submission (RNC)"
+        }
+      }
+    },
+    "s:3301~l:3359~e:401040059~c:250138": {
+      "uid": "s:3301~l:3359~e:401040059~c:250138",
+      "name": "Kunlun Fight 38: Clash of Titans 2",
+      "gameDate": "2016-02-21T17:00:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "4039988",
+        "uid": "s:3301~a:4039988",
+        "displayName": "Svetlana Gotsyk",
+        "fullName": "Svetlana Gotsyk",
+        "lastName": "Gotsyk",
+        "shortName": "S. Gotsyk"
+      },
+      "status": {
+        "displayClock": "2:29",
+        "period": 2,
+        "result": {
+          "name": "tko",
+          "displayName": "TKO",
+          "shortDisplayName": "TKO"
+        }
+      }
+    },
+    "s:3301~l:3359~e:401040060~c:250137": {
+      "uid": "s:3301~l:3359~e:401040060~c:250137",
+      "name": "Kunlun Fight 35: World Tour",
+      "gameDate": "2015-12-19T05:00:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "4299217",
+        "uid": "s:3301~a:4299217",
+        "displayName": "Samantha Jean-Francois",
+        "fullName": "Samantha Jean-Francois",
+        "lastName": "Jean-Francois",
+        "shortName": "S. Jean-Francois"
+      },
+      "status": {
+        "displayClock": "3:37",
+        "period": 1,
+        "result": {
+          "name": "tko",
+          "displayName": "TKO",
+          "shortDisplayName": "TKO"
+        }
+      }
+    },
+    "s:3301~l:3359~e:401000655~c:401653990": {
+      "uid": "s:3301~l:3359~e:401000655~c:401653990",
+      "name": "CKFC: Chinese Kung Fu Championships 10/27",
+      "gameDate": "2014-10-27T16:00:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "3309962",
+        "uid": "s:3301~a:3309962",
+        "displayName": "Feier Huang",
+        "fullName": "Feier Huang",
+        "lastName": "Huang",
+        "shortName": "F. Huang"
+      },
+      "status": {
+        "displayClock": "0:40",
+        "period": 1,
+        "result": {
+          "name": "submission-rear-naked-choke",
+          "displayName": "Submission (Rear Naked Choke)",
+          "shortDisplayName": "Submission (RNC)"
+        }
+      }
+    },
+    "s:3301~l:3359~e:401000656~c:401653989": {
+      "uid": "s:3301~l:3359~e:401000656~c:401653989",
+      "name": "CKFC: Chinese Kung Fu Championships 10/14",
+      "gameDate": "2014-10-14T16:00:00.000+00:00",
+      "gameResult": "W",
+      "opponent": {
+        "id": "4350870",
+        "uid": "s:3301~a:4350870",
+        "displayName": "Shuxia Wu",
+        "fullName": "Shuxia Wu",
+        "lastName": "Wu",
+        "shortName": "S. Wu"
+      },
+      "status": {
+        "displayClock": "1:56",
+        "period": 1,
+        "result": {
+          "name": "submission-armbar",
+          "displayName": "Submission (Armbar)",
+          "shortDisplayName": "Submission (Armbar)"
+        }
+      }
+    },
+    "s:3301~l:3359~e:401040061~c:250134": {
+      "uid": "s:3301~l:3359~e:401040061~c:250134",
+      "name": "CMMAL: China MMA League",
+      "gameDate": "2013-11-09T05:00:00.000+00:00",
+      "gameResult": "L",
+      "opponent": {
+        "id": "4236540",
+        "uid": "s:3301~a:4236540",
+        "displayName": "Meng Bo",
+        "fullName": "Meng Bo",
+        "lastName": "Bo",
+        "shortName": "M. Bo"
+      },
+      "status": {
+        "displayClock": "5:00",
+        "period": 2,
+        "result": {
+          "name": "decision---unanimous",
+          "displayName": "Decision - Unanimous",
+          "shortDisplayName": "U Dec"
+        }
+      }
+    }
+  }
+}

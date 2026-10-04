@@ -1,0 +1,6 @@
+import assert from 'node:assert/strict';
+const base=process.argv[2]||'http://localhost:3000';
+async function get(action){const r=await fetch(base+'/api/ufc?'+action,{signal:AbortSignal.timeout(45000)});const body=await r.json();assert.equal(r.status,200,JSON.stringify(body));assert(body.source&&body.fetchedAt&&['live','cache','snapshot'].includes(body.freshness));console.log(action,body.freshness,Array.isArray(body.data)?body.data.length:body.data.name);return body;}
+await Promise.all(['action=rankings','action=events','action=news','action=search&q=Zhang%20Weili','action=fighter&id=4350762'].map(get));
+for(const body of [{action:'ask',question:'女子蝇量级 Meta 排名'},{action:'predict',a:'4350762',b:'2554705'}]){const r=await fetch(base+'/api/ufc',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body),signal:AbortSignal.timeout(45000)});const result=await r.json();assert.equal(r.status,200,JSON.stringify(result));console.log(body.action,result.kind);}
+const bad=await fetch(base+'/api/ufc?action=fighter&id=https://evil.test');assert.equal(bad.status,400);const empty=await fetch(base+'/api/ufc',{method:'POST',headers:{'Content-Type':'application/json'},body:'{"action":"ask","question":""}'});assert.equal(empty.status,400);console.log('HTTP smoke checks passed');
